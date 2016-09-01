@@ -21,7 +21,9 @@ Gem::Specification.new do |s|
   s.files        = Dir['CHANGELOG.md', 'MIT-LICENSE', 'README.md', 'lib/**/*']
   s.require_path = 'lib'
 
-  s.add_dependency 'activesupport', '>= 4.0.0'
+  s.add_dependency 'activesupport', '>= 3.0.0'
+  s.add_dependency 'concurrent-ruby', "~> 1.0", ">= 1.0.2"
+
 
   s.add_development_dependency 'bundler', '~> 1.6'
   s.add_development_dependency 'rake'

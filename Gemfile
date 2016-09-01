@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'activesupport', '~> 4.1.0'
+gem 'activesupport', '~> 3.2.0'
 
 gem 'resque', require: false
 gem 'resque-scheduler', require: false
